@@ -1,16 +1,7 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  margin: auto;
+  width: fit-content;
 }
 
 .App-header {
@@ -27,12 +18,53 @@
 .App-link {
   color: #61dafb;
 }
+section{
+  padding: 1em;
+}
+.main-div{
+  margin-top: 1em;
+  width: fit-content;
+  border: 3px solid black;
+}
+.title-section{
+  text-align: left;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.innerContent{
+  display: flex;
+  justify-content: space-around;
+}
+
+.rightElement img{
+  width: 250px;
+}
+
+.totalPrice-discount{
+  color: #6ad3e0;
+}
+.bottom-sec{
+  border-top: 3px solid black;
+}
+.totalPrice{
+  text-align: left;
+  width: 100px;
+  margin-left: auto;
+  padding-right: 2em;
+}
+.totalPrice p {
+  margin: 0;
+}
+.totalPrice-topay{
+  color: red;
+}
+.checkbox input{
+  width: 20px;
+  height: 20px;
+  margin-top: 25px;
+}
+.update-quantity{
+  text-align: left;
+}
+.update-quantity p{
+  font-size: 25px;
 }
