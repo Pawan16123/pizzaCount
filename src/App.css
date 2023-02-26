@@ -47,9 +47,8 @@ section{
 }
 .totalPrice{
   text-align: left;
-  width: 100px;
+  width: 130px;
   margin-left: auto;
-  padding-right: 2em;
 }
 .totalPrice p {
   margin: 0;

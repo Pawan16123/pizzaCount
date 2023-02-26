@@ -58,7 +58,7 @@ function Card() {
             <div className="totalPrice">
                 <p>Total: ${total}</p>
                 <p className='totalPrice-discount'>Dicount:{range}% <input type="range" min="0" max="60" value={range} onChange={handleInputChange} /></p>
-                <p className='totalPrice-topay'>To Pay: ${toPay}</p>
+                <p className='totalPrice-topay'>To Pay: ${Number(toPay.toFixed(2))}</p>
             </div>
         </section>
     </div>
