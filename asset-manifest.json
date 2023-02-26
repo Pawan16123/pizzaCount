@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/pizzaCount/static/css/main.5216e83e.css",
+    "main.js": "/pizzaCount/static/js/main.6deab301.js",
+    "static/media/pizza.png": "/pizzaCount/static/media/pizza.80f38166fd7c7f7def93.png",
+    "index.html": "/pizzaCount/index.html",
+    "main.5216e83e.css.map": "/pizzaCount/static/css/main.5216e83e.css.map",
+    "main.6deab301.js.map": "/pizzaCount/static/js/main.6deab301.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5216e83e.css",
+    "static/js/main.6deab301.js"
+  ]
+}
